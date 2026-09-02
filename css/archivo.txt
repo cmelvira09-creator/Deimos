@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Nosotros | Deimos</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+
+<body>
+
+
+<!-- =====================================================
+     NAVBAR
+===================================================== -->
+
+<header class="navbar">
+
+    <a href="index.html" class="logo">
+        DEIMOS
+    </a>
+
+    <nav class="nav-menu">
+
+        <a href="index.html">
+            Home
+        </a>
+
+        <a href="nosotros.html" class="active">
+            Nosotros
+        </a>
+
+        <a href="servicios.html">
+            Servicios
+        </a>
+
+        <a href="colaboradores.html">
+            Ser colaborador
+        </a>
+
+        <a href="contacto.html">
+            Contacto
+        </a>
+
+    </nav>
+
+    <a href="contacto.html" class="nav-button">
+        Hablemos →
+    </a>
+
+</header>
+
+
+
+<!-- =====================================================
+     HERO NOSOTROS
+===================================================== -->
+
+<section class="about-hero">
+
+    <div class="about-hero-content">
+
+        <span class="eyebrow">
+            DEIMOS · NOSOTROS
+        </span>
+
+        <h1>
+            Una red que
+            <span>conecta.</span>
+        </h1>
+
+        <p>
+            Deimos conecta necesidades, talento y tecnología
+            para convertir ideas y oportunidades en soluciones.
+        </p>
+
+    </div>
+
+
+    <div class="about-hero-number">
+
+        <span>
+            01
+        </span>
+
+        <p>
+            IDENTIDAD
+        </p>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     ¿QUÉ ES DEIMOS?
+===================================================== -->
+
+<section class="about-intro">
+
+    <div class="section-label">
+
+        <span>01</span>
+
+        DEIMOS
+
+    </div>
+
+
+    <div class="about-intro-grid">
+
+
+        <div class="about-question">
+
+            <h2>
+                ¿Qué es
+                <strong>Deimos?</strong>
+            </h2>
+
+        </div>
+
+
+        <div class="about-answer">
+
+            <p class="large-text">
+
+                Una empresa que conecta necesidades,
+                talento y tecnología.
+
+            </p>
+
+            <p>
+
+                No todas las necesidades requieren hacer
+                todo desde cero. A veces lo importante es
+                entender el problema, encontrar las
+                capacidades correctas y reunirlas para
+                construir una solución.
+
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     HISTORIA
+===================================================== -->
+
+<section class="about-history">
+
+    <div class="section-label">
+
+        <span>02</span>
+
+        HISTORIA
+
+    </div>
+
+
+    <div class="history-heading">
+
+        <h2>
+            De una necesidad real
+            <span>a una red.</span>
+        </h2>
+
+        <p>
+            Deimos nació al detectar que existían
+            oportunidades, pero no siempre había tiempo,
+            conocimientos o personas para atenderlas.
+        </p>
+
+    </div>
+
+
+    <div class="history-timeline">
+
+
+        <div class="history-item">
+
+            <div class="history-number">
+                01
+            </div>
+
+            <div>
+
+                <span>
+                    OPORTUNIDADES
+                </span>
+
+                <h3>
+                    Proyectos y necesidades
+                </h3>
+
+                <p>
+                    Llegaban proyectos y recomendaciones
+                    que necesitaban una respuesta.
+                </p>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="history-item">
+
+            <div class="history-number">
+                02
+            </div>
+
+            <div>
+
+                <span>
+                    LÍMITES
+                </span>
+
+                <h3>
+                    No siempre había capacidad
+                </h3>
+
+                <p>
+                    No siempre había tiempo,
+                    conocimientos o capacidad
+                    para atender cada oportunidad.
+                </p>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="history-item">
+
+            <div class="history-number">
+                03
+            </div>
+
+            <div>
+
+                <span>
+                    CONEXIÓN
+                </span>
+
+                <h3>
+                    Encontrar a las personas correctas
+                </h3>
+
+                <p>
+                    Se comenzó a vincular cada proyecto
+                    con especialistas capaces de
+                    participar en su desarrollo.
+                </p>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="history-item">
+
+            <div class="history-number">
+                04
+            </div>
+
+            <div>
+
+                <span>
+                    MODELO
+                </span>
+
+                <h3>
+                    Una red que coordina
+                </h3>
+
+                <p>
+                    La conexión evolucionó hacia un modelo
+                    de coordinación, consultoría y gestión.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="history-statement">
+
+        La idea dejó de ser
+        <strong>“conseguir trabajos”</strong>
+        y se convirtió en
+        <strong>“crear oportunidades con estructura”.</strong>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     ¿QUÉ HACEMOS?
+===================================================== -->
+
+<section class="about-model">
+
+    <div class="section-label">
+
+        <span>03</span>
+
+        MODELO
+
+    </div>
+
+
+    <div class="about-model-heading">
+
+        <h2>
+            Una red para
+            <span>hacer que suceda.</span>
+        </h2>
+
+        <p>
+            Deimos puede adaptarse a las necesidades
+            de cada proyecto.
+        </p>
+
+    </div>
+
+
+    <div class="model-grid">
+
+
+        <article class="model-card">
+
+            <div class="model-icon">
+                01
+            </div>
+
+            <span>
+                CONSULTORÍA
+            </span>
+
+            <h3>
+                Entender
+            </h3>
+
+            <p>
+                Analizamos la necesidad y ayudamos
+                a identificar el camino adecuado.
+            </p>
+
+        </article>
+
+
+
+        <article class="model-card">
+
+            <div class="model-icon">
+                02
+            </div>
+
+            <span>
+                DESARROLLO
+            </span>
+
+            <h3>
+                Construir
+            </h3>
+
+            <p>
+                Desarrollamos soluciones adecuadas
+                a los objetivos de cada proyecto.
+            </p>
+
+        </article>
+
+
+
+        <article class="model-card">
+
+            <div class="model-icon">
+                03
+            </div>
+
+            <span>
+                RED
+            </span>
+
+            <h3>
+                Conectar
+            </h3>
+
+            <p>
+                Integramos especialistas y capacidades
+                para formar equipos adecuados.
+            </p>
+
+        </article>
+
+
+    </div>
+
+
+    <div class="model-footer">
+
+        <span>
+            DEIMOS PUEDE
+        </span>
+
+        <p>
+            ejecutar · coordinar · consultar · combinar
+        </p>
+
+        <small>
+            El modelo se adapta al proyecto,
+            no al revés.
+        </small>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     MISIÓN Y VISIÓN
+===================================================== -->
+
+<section class="mission">
+
+    <div class="section-label">
+
+        <span>04</span>
+
+        PROPÓSITO
+
+    </div>
+
+
+    <div class="mission-heading">
+
+        <h2>
+            Misión
+            <span>y visión.</span>
+        </h2>
+
+        <p>
+            La dirección que debe mantenerse
+            aunque Deimos crezca.
+        </p>
+
+    </div>
+
+
+    <div class="mission-grid">
+
+
+        <article class="mission-card">
+
+            <span>
+                MISIÓN
+            </span>
+
+            <p>
+
+                Acompañar a personas, empresas y
+                organizaciones en su transformación
+                digital, convirtiendo sus necesidades
+                e ideas en soluciones claras,
+                funcionales y de calidad mediante
+                consultoría, desarrollo y colaboración
+                con especialistas.
+
+            </p>
+
+        </article>
+
+
+
+        <article class="mission-card mission-dark">
+
+            <span>
+                VISIÓN
+            </span>
+
+            <p>
+
+                Ser una empresa referente en soluciones
+                digitales que impulse la transformación
+                de empresas y comunidades mediante
+                consultoría, colaboración e innovación,
+                creando proyectos y productos con impacto.
+
+            </p>
+
+        </article>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     CULTURA
+===================================================== -->
+
+<section class="values">
+
+    <div class="section-label">
+
+        <span>05</span>
+
+        CULTURA
+
+    </div>
+
+
+    <div class="values-heading">
+
+        <h2>
+            Lo que queremos
+            que signifique
+            <span>“Deimos”.</span>
+        </h2>
+
+        <p>
+            Una marca reconocida por lo que hace,
+            lo útil y lo que tiene visión.
+        </p>
+
+    </div>
+
+
+    <div class="values-grid">
+
+
+        <article class="value-card">
+
+            <span>INNOVACIÓN</span>
+
+            <p>
+                Buscar nuevas formas de resolver.
+            </p>
+
+        </article>
+
+
+
+        <article class="value-card">
+
+            <span>FUTURO</span>
+
+            <p>
+                Pensar en crecimiento y evolución.
+            </p>
+
+        </article>
+
+
+
+        <article class="value-card">
+
+            <span>CALIDAD</span>
+
+            <p>
+                No basta con entregar;
+                debe estar bien hecho.
+            </p>
+
+        </article>
+
+
+
+        <article class="value-card">
+
+            <span>CONFIANZA</span>
+
+            <p>
+                Comunicación clara y
+                resultados visibles.
+            </p>
+
+        </article>
+
+
+
+        <article class="value-card">
+
+            <span>VISIÓN</span>
+
+            <p>
+                Cada proyecto debe tener
+                un motivo.
+            </p>
+
+        </article>
+
+
+
+        <article class="value-card">
+
+            <span>DURABILIDAD</span>
+
+            <p>
+                Crear soluciones útiles y
+                sostenibles en el tiempo.
+            </p>
+
+        </article>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     CTA
+===================================================== -->
+
+<section class="about-cta">
+
+    <div>
+
+        <span class="eyebrow">
+            DEIMOS
+        </span>
+
+        <h2>
+            ¿Tienes una idea
+            <span>o una necesidad?</span>
+        </h2>
+
+        <p>
+            Conversemos y encontremos la manera
+            adecuada de convertirla en una solución.
+        </p>
+
+        <a href="contacto.html" class="btn-primary">
+            Hablemos →
+        </a>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     FOOTER
+===================================================== -->
+
+<footer class="footer">
+
+    <div class="footer-main">
+
+
+        <div class="footer-brand">
+
+            <a href="index.html" class="logo">
+                DEIMOS
+            </a>
+
+            <p>
+                Soluciones digitales · Consultoría · Desarrollo · Innovación
+            </p>
+
+        </div>
+
+
+        <div class="footer-links">
+
+            <div>
+
+                <span>
+                    EXPLORA
+                </span>
+
+                <a href="index.html">
+                    Home
+                </a>
+
+                <a href="nosotros.html">
+                    Nosotros
+                </a>
+
+                <a href="servicios.html">
+                    Servicios
+                </a>
+
+            </div>
+
+
+            <div>
+
+                <span>
+                    CONECTA
+                </span>
+
+                <a href="colaboradores.html">
+                    Ser colaborador
+                </a>
+
+                <a href="contacto.html">
+                    Contacto
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        <span>
+            © 2026 Deimos
+        </span>
+
+        <span>
+            Soluciones con propósito.
+        </span>
+
+    </div>
+
+</footer>
+
+
+
+</body>
+
+</html>
