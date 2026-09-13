@@ -1,0 +1,2642 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Solicitud para formar parte de la red de colaboradores de DEIMOS.">
+
+    <title>Ser colaborador | DEIMOS</title>
+
+    <link rel="stylesheet" href="css/formulario-colaboradores.css">
+</head>
+
+<body>
+
+<main class="page">
+
+    <!-- =====================================================
+         BANNER
+    ====================================================== -->
+
+    <header class="hero">
+
+        <img
+            src="img/Banner ser colaborador web ofi.png"
+            alt="DEIMOS - Solicitud de colaboración"
+        >
+
+        <div class="intro">
+
+            <div class="eyebrow">
+                Red de colaboradores DEIMOS
+            </div>
+
+            <h1>
+                Solicitud de colaboración
+            </h1>
+
+            <p>
+                Queremos conocer tus habilidades, experiencia y la manera
+                en la que consideras que puedes aportar a DEIMOS.
+            </p>
+
+        </div>
+
+    </header>
+
+
+    <!-- =====================================================
+         FORMULARIO
+    ====================================================== -->
+
+    <form
+        id="collaboratorForm"
+        class="form-shell"
+        novalidate
+    >
+
+
+        <!-- =================================================
+             01 DATOS GENERALES
+        ================================================== -->
+
+        <section class="section">
+
+            <div class="section-heading">
+
+                <div class="section-number">
+                    01
+                </div>
+
+                <div>
+
+                    <h2>
+                        Datos generales
+                    </h2>
+
+                    <p class="section-description">
+                        Proporciona la información necesaria para poder
+                        conocerte y establecer contacto contigo.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="grid">
+
+
+                <div class="field">
+
+                    <label for="nombre">
+                        Nombre completo
+                        <span class="required">*</span>
+                    </label>
+
+                    <input
+                        id="nombre"
+                        name="nombre"
+                        type="text"
+                        autocomplete="name"
+                        required
+                    >
+
+                    <div class="error-message">
+                        Ingresa tu nombre completo.
+                    </div>
+
+                </div>
+
+
+                <div class="field">
+
+                    <label for="fechaNacimiento">
+                        Fecha de nacimiento
+                    </label>
+
+                    <input
+                        id="fechaNacimiento"
+                        name="fechaNacimiento"
+                        type="date"
+                    >
+
+                </div>
+
+
+                <div class="field">
+
+                    <label for="residencia">
+                        Ciudad / País de residencia
+                        <span class="required">*</span>
+                    </label>
+
+                    <input
+                        id="residencia"
+                        name="residencia"
+                        type="text"
+                        required
+                    >
+
+                    <div class="error-message">
+                        Indica tu ciudad y país de residencia.
+                    </div>
+
+                </div>
+
+
+                <div class="field">
+
+                    <label for="celular">
+                        Número celular / WhatsApp
+                        <span class="required">*</span>
+                    </label>
+
+                    <input
+                        id="celular"
+                        name="celular"
+                        type="tel"
+                        autocomplete="tel"
+                        required
+                    >
+
+                    <div class="error-message">
+                        Ingresa un número de contacto.
+                    </div>
+
+                </div>
+
+
+                <div class="field">
+
+                    <label for="correo">
+                        Correo electrónico
+                        <span class="required">*</span>
+                    </label>
+
+                    <input
+                        id="correo"
+                        name="correo"
+                        type="email"
+                        autocomplete="email"
+                        required
+                    >
+
+                    <div class="error-message">
+                        Ingresa un correo válido.
+                    </div>
+
+                </div>
+
+
+                <div class="field">
+
+                    <span class="field-label">
+                        ¿Actualmente cuentas con trabajo fijo?
+                    </span>
+
+                    <div class="radio-row">
+
+                        <label class="pill">
+                            <input
+                                type="radio"
+                                name="trabajoFijo"
+                                value="Sí"
+                            >
+                            <span>Sí</span>
+                        </label>
+
+                        <label class="pill">
+                            <input
+                                type="radio"
+                                name="trabajoFijo"
+                                value="No"
+                            >
+                            <span>No</span>
+                        </label>
+
+                        <label class="pill">
+                            <input
+                                type="radio"
+                                name="trabajoFijo"
+                                value="Busco"
+                            >
+                            <span>Busco</span>
+                        </label>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             02 ÁREA DE COLABORACIÓN
+        ================================================== -->
+
+        <section
+            class="section"
+            id="areaSection"
+        >
+
+            <div class="section-heading">
+
+                <div class="section-number">
+                    02
+                </div>
+
+                <div>
+
+                    <h2>
+                        Área de colaboración
+                    </h2>
+
+                    <p class="section-description">
+                        Selecciona el área o áreas en las que deseas
+                        colaborar con DEIMOS.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- TARJETAS -->
+
+            <div
+                class="choice-grid"
+                id="areaChoices"
+            >
+
+                <label class="choice">
+
+                    <input
+                        type="checkbox"
+                        name="areas"
+                        value="Desarrollo"
+                    >
+
+                    <div class="choice-card">
+
+                        <strong>
+                            Desarrollo
+                        </strong>
+
+                        <span>
+                            Software, desarrollo web, bases de datos
+                            y automatización.
+                        </span>
+
+                    </div>
+
+                </label>
+
+
+                <label class="choice">
+
+                    <input
+                        type="checkbox"
+                        name="areas"
+                        value="Creatividad y comunicación"
+                    >
+
+                    <div class="choice-card">
+
+                        <strong>
+                            Creatividad y comunicación
+                        </strong>
+
+                        <span>
+                            Diseño, contenido, redes sociales,
+                            imagen y comunicación digital.
+                        </span>
+
+                    </div>
+
+                </label>
+
+            </div>
+
+
+            <div
+                id="areaError"
+                class="status error"
+                style="display:none"
+            >
+                Selecciona al menos un área de colaboración.
+            </div>
+
+
+
+            <!-- =================================================
+                 DESARROLLO
+            ================================================== -->
+
+            <div
+                class="sub-block"
+                id="desarrolloBlock"
+            >
+
+                <h3 class="sub-title">
+                    Perfil de desarrollo
+                </h3>
+
+
+                <div class="grid">
+
+
+                    <div class="field">
+
+                        <label for="especialidadDev">
+                            Área principal de especialización
+                        </label>
+
+                        <select
+                            id="especialidadDev"
+                            name="especialidadDev"
+                        >
+
+                            <option value="">
+                                Selecciona una opción
+                            </option>
+
+                            <option>
+                                Desarrollo de software
+                            </option>
+
+                            <option>
+                                Desarrollo web
+                            </option>
+
+                            <option>
+                                Bases de datos
+                            </option>
+
+                            <option>
+                                Automatización
+                            </option>
+
+                            <option>
+                                Otra
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <div class="field">
+
+                        <label for="lenguajes">
+                            Lenguajes de programación que domines
+                        </label>
+
+                        <input
+                            id="lenguajes"
+                            name="lenguajes"
+                            type="text"
+                            placeholder="Ej. Python, JavaScript, SQL..."
+                        >
+
+                    </div>
+
+
+                    <div class="field full">
+
+                        <label for="tecnologias">
+                            Tecnologías, frameworks o herramientas
+                        </label>
+
+                        <textarea
+                            id="tecnologias"
+                            name="tecnologias"
+                            placeholder="Cuéntanos qué tecnologías, frameworks y herramientas utilizas."
+                        ></textarea>
+
+                    </div>
+
+
+                    <div class="field">
+
+                        <label for="nivelDev">
+                            Nivel que consideras que tienes
+                        </label>
+
+                        <select
+                            id="nivelDev"
+                            name="nivelDev"
+                        >
+
+                            <option value="">
+                                Selecciona una opción
+                            </option>
+
+                            <option>Principiante</option>
+                            <option>Intermedio</option>
+                            <option>Avanzado</option>
+                            <option>Profesional</option>
+
+                        </select>
+
+                    </div>
+
+
+                    <div class="field">
+
+                        <span class="field-label">
+                            ¿Has usado estructuras condicionales?
+                        </span>
+
+                        <div class="radio-row">
+
+                            <label class="pill">
+                                <input
+                                    type="radio"
+                                    name="condicionales"
+                                    value="Sí"
+                                >
+                                <span>Sí</span>
+                            </label>
+
+                            <label class="pill">
+                                <input
+                                    type="radio"
+                                    name="condicionales"
+                                    value="No"
+                                >
+                                <span>No</span>
+                            </label>
+
+                            <label class="pill">
+                                <input
+                                    type="radio"
+                                    name="condicionales"
+                                    value="Busco aprender"
+                                >
+                                <span>Busco aprender</span>
+                            </label>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="field full">
+
+                        <label for="estructuras">
+                            ¿Cuáles estructuras condicionales has usado?
+                        </label>
+
+                        <input
+                            id="estructuras"
+                            name="estructuras"
+                            type="text"
+                        >
+
+                    </div>
+
+
+                    <div class="field full">
+
+                        <span class="field-label">
+                            Programación Orientada a Objetos
+                        </span>
+
+                        <div class="radio-row">
+
+                            <label class="pill">
+                                <input
+                                    type="radio"
+                                    name="poo"
+                                    value="Sí"
+                                >
+                                <span>Sí</span>
+                            </label>
+
+                            <label class="pill">
+                                <input
+                                    type="radio"
+                                    name="poo"
+                                    value="No"
+                                >
+                                <span>No</span>
+                            </label>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="field full">
+
+                        <label for="proyectosPOO">
+                            Si escogiste “Sí”, menciona en qué
+                            proyectos/programas la has utilizado
+                        </label>
+
+                        <textarea
+                            id="proyectosPOO"
+                            name="proyectosPOO"
+                        ></textarea>
+
+                    </div>
+
+
+                    <div class="field full">
+
+                        <span class="field-label">
+                            ¿Has usado IA para el desarrollo?
+                        </span>
+
+                        <div class="radio-row">
+
+                            <label class="pill">
+                                <input
+                                    type="radio"
+                                    name="iaDesarrollo"
+                                    value="Sí"
+                                >
+                                <span>Sí</span>
+                            </label>
+
+                            <label class="pill">
+                                <input
+                                    type="radio"
+                                    name="iaDesarrollo"
+                                    value="No"
+                                >
+                                <span>No</span>
+                            </label>
+
+                            <label class="pill">
+                                <input
+                                    type="radio"
+                                    name="iaDesarrollo"
+                                    value="Busco aprender"
+                                >
+                                <span>Busco aprender</span>
+                            </label>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="field full">
+
+                        <label for="desarrollosIA">
+                            ¿Qué tipo de desarrollos con IA has realizado?
+                        </label>
+
+                        <input
+                            id="desarrollosIA"
+                            name="desarrollosIA"
+                            type="text"
+                        >
+
+                    </div>
+
+
+                    <div class="field full">
+
+                        <span class="field-label">
+                            Conocimiento de bases de datos relacionales
+                        </span>
+
+                        <div class="radio-row">
+
+                            <label class="pill">
+                                <input
+                                    type="radio"
+                                    name="bdRelacionalesNivel"
+                                    value="Reglas básicas"
+                                >
+                                <span>Reglas básicas</span>
+                            </label>
+
+                            <label class="pill">
+                                <input
+                                    type="radio"
+                                    name="bdRelacionalesNivel"
+                                    value="Dominio completo"
+                                >
+                                <span>Dominio completo</span>
+                            </label>
+
+                            <label class="pill">
+                                <input
+                                    type="radio"
+                                    name="bdRelacionalesNivel"
+                                    value="Teórico"
+                                >
+                                <span>Teórico</span>
+                            </label>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="field full">
+
+                        <span class="field-label">
+                            ¿Tienes experiencia con bases de datos
+                            o servicios en la nube?
+                        </span>
+
+                        <div class="radio-row">
+
+                            <label class="pill">
+                                <input
+                                    type="radio"
+                                    name="nube"
+                                    value="Sí"
+                                >
+                                <span>Sí</span>
+                            </label>
+
+                            <label class="pill">
+                                <input
+                                    type="radio"
+                                    name="nube"
+                                    value="No"
+                                >
+                                <span>No</span>
+                            </label>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="field full">
+
+                        <label for="cualesNube">
+                            En caso de ser “Sí”, menciona cuáles
+                        </label>
+
+                        <input
+                            id="cualesNube"
+                            name="cualesNube"
+                            type="text"
+                        >
+
+                    </div>
+
+
+                    <div class="field">
+
+                        <span class="field-label">
+                            Conocimiento de bases de datos no relacionales
+                        </span>
+
+                        <div class="radio-row">
+
+                            <label class="pill">
+                                <input
+                                    type="radio"
+                                    name="bdNoRelacionales"
+                                    value="Sí"
+                                >
+                                <span>Sí</span>
+                            </label>
+
+                            <label class="pill">
+                                <input
+                                    type="radio"
+                                    name="bdNoRelacionales"
+                                    value="No"
+                                >
+                                <span>No</span>
+                            </label>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="field">
+
+                        <span class="field-label">
+                            Experiencia o conocimiento previo de GitHub
+                        </span>
+
+                        <div class="radio-row">
+
+                            <label class="pill">
+                                <input
+                                    type="radio"
+                                    name="githubExp"
+                                    value="Sí"
+                                >
+                                <span>Sí</span>
+                            </label>
+
+                            <label class="pill">
+                                <input
+                                    type="radio"
+                                    name="githubExp"
+                                    value="No"
+                                >
+                                <span>No</span>
+                            </label>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="field full">
+
+                        <label for="githubComo">
+                            En caso de ser “Sí”, menciona cómo
+                        </label>
+
+                        <textarea
+                            id="githubComo"
+                            name="githubComo"
+                        ></textarea>
+
+                    </div>
+
+
+                    <div class="field full">
+
+                        <span class="field-label">
+                            ¿Has desarrollado programas,
+                            e-commerce u otros proyectos?
+                        </span>
+
+                        <div class="radio-row">
+
+                            <label class="pill">
+                                <input
+                                    type="radio"
+                                    name="ecommerce"
+                                    value="Sí"
+                                >
+                                <span>Sí</span>
+                            </label>
+
+                            <label class="pill">
+                                <input
+                                    type="radio"
+                                    name="ecommerce"
+                                    value="No"
+                                >
+                                <span>No</span>
+                            </label>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="field full">
+
+                        <label for="pagosOnline">
+                            Menciona cuáles y cómo manejaste
+                            los pagos en línea
+                        </label>
+
+                        <textarea
+                            id="pagosOnline"
+                            name="pagosOnline"
+                        ></textarea>
+
+                    </div>
+
+
+                    <div class="field full">
+
+                        <span class="field-label">
+                            ¿En qué actividades quieres colaborar
+                            con DEIMOS?
+                        </span>
+
+                        <div class="checkbox-grid">
+
+                            <label class="check-item">
+                                <input
+                                    type="checkbox"
+                                    name="actividadesDev"
+                                    value="Desarrollo"
+                                >
+                                Desarrollo
+                            </label>
+
+                            <label class="check-item">
+                                <input
+                                    type="checkbox"
+                                    name="actividadesDev"
+                                    value="Consultorías"
+                                >
+                                Consultorías
+                            </label>
+
+                            <label class="check-item">
+                                <input
+                                    type="checkbox"
+                                    name="actividadesDev"
+                                    value="Soporte técnico a colaboradores"
+                                >
+                                Soporte técnico a colaboradores
+                            </label>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- =================================================
+                 CREATIVIDAD
+            ================================================== -->
+
+            <div
+                class="sub-block"
+                id="creatividadBlock"
+            >
+
+                <h3 class="sub-title">
+                    Perfil de creatividad y comunicación
+                </h3>
+
+
+                <div class="grid">
+
+
+                    <div class="field full">
+
+                        <label for="especialidadCreativa">
+                            ¿Cuál es tu área principal?
+                        </label>
+
+                        <select
+                            id="especialidadCreativa"
+                            name="especialidadCreativa"
+                        >
+
+                            <option value="">
+                                Selecciona una opción
+                            </option>
+
+                            <option>Manejo de redes sociales</option>
+                            <option>Diseño de marca</option>
+                            <option>Diseño gráfico</option>
+                            <option>Creación de contenido</option>
+                            <option>Diseño de recursos gráficos</option>
+                            <option>Comunicación digital</option>
+                            <option>Otra</option>
+
+                        </select>
+
+                    </div>
+
+
+
+                    <!-- REDES -->
+
+                    <div class="field full">
+
+                        <span class="field-label">
+                            Redes sociales
+                        </span>
+
+                        <div class="checkbox-grid">
+
+                            <label class="check-item">
+                                <input type="checkbox"
+                                       name="redes"
+                                       value="Gestión de redes sociales">
+                                Gestión de redes sociales
+                            </label>
+
+                            <label class="check-item">
+                                <input type="checkbox"
+                                       name="redes"
+                                       value="Programación/publicación de contenido">
+                                Programación / publicación de contenido
+                            </label>
+
+                            <label class="check-item">
+                                <input type="checkbox"
+                                       name="redes"
+                                       value="Organización de publicaciones">
+                                Organización de publicaciones
+                            </label>
+
+                            <label class="check-item">
+                                <input type="checkbox"
+                                       name="redes"
+                                       value="Apoyo en la creación de publicaciones">
+                                Apoyo en la creación de publicaciones
+                            </label>
+
+                            <label class="check-item">
+                                <input type="checkbox"
+                                       name="redes"
+                                       value="Gestión de perfiles">
+                                Gestión de perfiles
+                            </label>
+
+                            <label class="check-item">
+                                <input type="checkbox"
+                                       name="redes"
+                                       value="Apoyo en comunicación digital">
+                                Apoyo en comunicación digital
+                            </label>
+
+                            <label class="check-item">
+                                <input type="checkbox"
+                                       name="redes"
+                                       value="Otro">
+                                Otro
+                            </label>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="field full">
+
+                        <label for="otroRedes">
+                            Si escogiste “Otro”, por favor indica cómo
+                        </label>
+
+                        <input
+                            id="otroRedes"
+                            name="otroRedes"
+                            type="text"
+                        >
+
+                    </div>
+
+
+
+                    <!-- CONTENIDO -->
+
+                    <div class="field full">
+
+                        <span class="field-label">
+                            Contenido
+                        </span>
+
+                        <div class="checkbox-grid">
+
+                            <label class="check-item">
+                                <input type="checkbox"
+                                       name="contenido"
+                                       value="Redacción de textos">
+                                Redacción de textos
+                            </label>
+
+                            <label class="check-item">
+                                <input type="checkbox"
+                                       name="contenido"
+                                       value="Corrección y edición de textos">
+                                Corrección y edición de textos
+                            </label>
+
+                            <label class="check-item">
+                                <input type="checkbox"
+                                       name="contenido"
+                                       value="Estructuración de información">
+                                Estructuración de información
+                            </label>
+
+                            <label class="check-item">
+                                <input type="checkbox"
+                                       name="contenido"
+                                       value="Carga de información en sitios web">
+                                Carga de información en sitios web
+                            </label>
+
+                            <label class="check-item">
+                                <input type="checkbox"
+                                       name="contenido"
+                                       value="Redacción para páginas web">
+                                Redacción para páginas web
+                            </label>
+
+                            <label class="check-item">
+                                <input type="checkbox"
+                                       name="contenido"
+                                       value="Redacción para redes sociales">
+                                Redacción para redes sociales
+                            </label>
+
+                            <label class="check-item">
+                                <input type="checkbox"
+                                       name="contenido"
+                                       value="Organización de contenido">
+                                Organización de contenido
+                            </label>
+
+                            <label class="check-item">
+                                <input type="checkbox"
+                                       name="contenido"
+                                       value="Otro">
+                                Otro
+                            </label>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="field full">
+
+                        <label for="otroContenido">
+                            Si escogiste “Otro”, por favor indica cómo
+                        </label>
+
+                        <input
+                            id="otroContenido"
+                            name="otroContenido"
+                            type="text"
+                        >
+
+                    </div>
+
+
+
+                    <!-- IMÁGENES -->
+
+                    <div class="field full">
+
+                        <span class="field-label">
+                            Imágenes
+                        </span>
+
+                        <div class="checkbox-grid">
+
+                            <label class="check-item">
+                                <input type="checkbox"
+                                       name="imagenes"
+                                       value="Selección de imágenes">
+                                Selección de imágenes
+                            </label>
+
+                            <label class="check-item">
+                                <input type="checkbox"
+                                       name="imagenes"
+                                       value="Recorte de imágenes">
+                                Recorte de imágenes
+                            </label>
+
+                            <label class="check-item">
+                                <input type="checkbox"
+                                       name="imagenes"
+                                       value="Redimensionado de imágenes">
+                                Redimensionado de imágenes
+                            </label>
+
+                            <label class="check-item">
+                                <input type="checkbox"
+                                       name="imagenes"
+                                       value="Preparación de imágenes para sitios web">
+                                Preparación de imágenes para sitios web
+                            </label>
+
+                            <label class="check-item">
+                                <input type="checkbox"
+                                       name="imagenes"
+                                       value="Optimización de imágenes">
+                                Optimización de imágenes
+                            </label>
+
+                            <label class="check-item">
+                                <input type="checkbox"
+                                       name="imagenes"
+                                       value="Preparación de imágenes para redes sociales">
+                                Preparación de imágenes para redes sociales
+                            </label>
+
+                            <label class="check-item">
+                                <input type="checkbox"
+                                       name="imagenes"
+                                       value="Organización de recursos gráficos">
+                                Organización de recursos gráficos
+                            </label>
+
+                            <label class="check-item">
+                                <input type="checkbox"
+                                       name="imagenes"
+                                       value="Otro">
+                                Otro
+                            </label>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="field full">
+
+                        <label for="otroImagenes">
+                            Si escogiste “Otro”, por favor indica cómo
+                        </label>
+
+                        <input
+                            id="otroImagenes"
+                            name="otroImagenes"
+                            type="text"
+                        >
+
+                    </div>
+
+
+
+                    <!-- DISEÑO -->
+
+                    <div class="field full">
+
+                        <span class="field-label">
+                            Diseño
+                        </span>
+
+                        <div class="checkbox-grid">
+
+                            <label class="check-item">
+                                <input type="checkbox"
+                                       name="diseno"
+                                       value="Adaptación de diseños a diferentes formatos">
+                                Adaptación de diseños a diferentes formatos
+                            </label>
+
+                            <label class="check-item">
+                                <input type="checkbox"
+                                       name="diseno"
+                                       value="Diseño de elementos visuales para sitios web">
+                                Diseño de elementos visuales para sitios web
+                            </label>
+
+                            <label class="check-item">
+                                <input type="checkbox"
+                                       name="diseno"
+                                       value="Diseño de material digital">
+                                Diseño de material digital
+                            </label>
+
+                            <label class="check-item">
+                                <input type="checkbox"
+                                       name="diseno"
+                                       value="Diseño para redes sociales">
+                                Diseño para redes sociales
+                            </label>
+
+                            <label class="check-item">
+                                <input type="checkbox"
+                                       name="diseno"
+                                       value="Maquetación visual">
+                                Maquetación visual
+                            </label>
+
+                            <label class="check-item">
+                                <input type="checkbox"
+                                       name="diseno"
+                                       value="Creación de recursos gráficos">
+                                Creación de recursos gráficos
+                            </label>
+
+                            <label class="check-item">
+                                <input type="checkbox"
+                                       name="diseno"
+                                       value="Diseño de banners">
+                                Diseño de banners
+                            </label>
+
+                            <label class="check-item">
+                                <input type="checkbox"
+                                       name="diseno"
+                                       value="Otro">
+                                Otro
+                            </label>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="field full">
+
+                        <label for="otroDiseno">
+                            Si escogiste “Otro”, por favor indica cómo
+                        </label>
+
+                        <input
+                            id="otroDiseno"
+                            name="otroDiseno"
+                            type="text"
+                        >
+
+                    </div>
+
+
+
+                    <!-- TESTEO -->
+
+                    <div class="field full">
+
+                        <span class="field-label">
+                            Testeo funcional / visual
+                        </span>
+
+                        <div class="checkbox-grid">
+
+                            <label class="check-item">
+                                <input type="checkbox"
+                                       name="testeo"
+                                       value="Revisión visual de sitios web">
+                                Revisión visual de sitios web
+                            </label>
+
+                            <label class="check-item">
+                                <input type="checkbox"
+                                       name="testeo"
+                                       value="Revisión de navegación">
+                                Revisión de navegación
+                            </label>
+
+                            <label class="check-item">
+                                <input type="checkbox"
+                                       name="testeo"
+                                       value="Revisión de enlaces y botones">
+                                Revisión de enlaces y botones
+                            </label>
+
+                            <label class="check-item">
+                                <input type="checkbox"
+                                       name="testeo"
+                                       value="Revisión de formularios">
+                                Revisión de formularios
+                            </label>
+
+                            <label class="check-item">
+                                <input type="checkbox"
+                                       name="testeo"
+                                       value="Revisión en diferentes dispositivos">
+                                Revisión en diferentes dispositivos
+                            </label>
+
+                            <label class="check-item">
+                                <input type="checkbox"
+                                       name="testeo"
+                                       value="Reporte de errores y detalles encontrados">
+                                Reporte de errores y detalles encontrados
+                            </label>
+
+                            <label class="check-item">
+                                <input type="checkbox"
+                                       name="testeo"
+                                       value="Detección de errores funcionales/visuales">
+                                Detección de errores funcionales/visuales
+                            </label>
+
+                            <label class="check-item">
+                                <input type="checkbox"
+                                       name="testeo"
+                                       value="Otro">
+                                Otro
+                            </label>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="field full">
+
+                        <label for="otroTesteo">
+                            Si escogiste “Otro”, por favor indica cómo
+                        </label>
+
+                        <input
+                            id="otroTesteo"
+                            name="otroTesteo"
+                            type="text"
+                        >
+
+                    </div>
+
+
+                    <div class="field full">
+
+                        <label for="herramientasCreativas">
+                            ¿Qué herramientas utilizas para realizar
+                            estas actividades?
+                        </label>
+
+                        <textarea
+                            id="herramientasCreativas"
+                            name="herramientasCreativas"
+                            placeholder="Ej. Canva, Photoshop, Illustrator, Figma..."
+                        ></textarea>
+
+                    </div>
+
+
+                    <div class="field">
+
+                        <label for="nivelCreativo">
+                            Nivel que consideras que tienes
+                        </label>
+
+                        <select
+                            id="nivelCreativo"
+                            name="nivelCreativo"
+                        >
+
+                            <option value="">
+                                Selecciona una opción
+                            </option>
+
+                            <option>Principiante</option>
+                            <option>Intermedio</option>
+                            <option>Avanzado</option>
+                            <option>Profesional</option>
+
+                        </select>
+
+                    </div>
+
+
+                    <div class="field full">
+
+                        <span class="field-label">
+                            ¿Cuáles de las áreas seleccionadas consideras
+                            que son tus principales fortalezas?
+                        </span>
+
+                        <div class="checkbox-grid">
+
+                            <label class="check-item">
+                                <input type="checkbox"
+                                       name="fortalezas"
+                                       value="Testeo funcional/visual">
+                                Testeo funcional/visual
+                            </label>
+
+                            <label class="check-item">
+                                <input type="checkbox"
+                                       name="fortalezas"
+                                       value="Diseño">
+                                Diseño
+                            </label>
+
+                            <label class="check-item">
+                                <input type="checkbox"
+                                       name="fortalezas"
+                                       value="Imágenes">
+                                Imágenes
+                            </label>
+
+                            <label class="check-item">
+                                <input type="checkbox"
+                                       name="fortalezas"
+                                       value="Contenido">
+                                Contenido
+                            </label>
+
+                            <label class="check-item">
+                                <input type="checkbox"
+                                       name="fortalezas"
+                                       value="Redes sociales">
+                                Redes sociales
+                            </label>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             03 EXPERIENCIA Y PORTAFOLIO
+        ================================================== -->
+
+        <section class="section">
+
+            <div class="section-heading">
+
+                <div class="section-number">
+                    03
+                </div>
+
+                <div>
+
+                    <h2>
+                        Experiencia y portafolio
+                    </h2>
+
+                    <p class="section-description">
+                        En DEIMOS valoramos las experiencias laborales,
+                        estudiantiles y los proyectos que ayuden a
+                        representar tus capacidades.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="grid">
+
+
+                <div class="field full">
+
+                    <label for="habilidadesBlandas">
+                        Habilidades blandas
+                    </label>
+
+                    <textarea
+                        id="habilidadesBlandas"
+                        name="habilidadesBlandas"
+                        placeholder="Describe tus habilidades no técnicas..."
+                    ></textarea>
+
+                </div>
+
+
+                <div class="field full">
+
+                    <label for="experiencia">
+                        Experiencia laboral / estudiantil
+                    </label>
+
+                    <p class="helper">
+
+                        1. Escribe la escuela o empresa.
+
+                        <br>
+
+                        2. Escribe tus proyectos, tecnologías,
+                        herramientas y el rol que desarrollaste.
+
+                    </p>
+
+                    <textarea
+                        id="experiencia"
+                        name="experiencia"
+                        rows="8"
+                        placeholder="Cuéntanos sobre tus experiencias..."
+                    ></textarea>
+
+                </div>
+
+
+                <div class="field full">
+
+                    <label for="portafolio">
+                        Compártenos el link de tu portafolio digital
+                    </label>
+
+                    <input
+                        id="portafolio"
+                        name="portafolio"
+                        type="url"
+                        placeholder="https://"
+                    >
+
+                </div>
+
+
+                <div class="field">
+
+                    <label for="github">
+                        GitHub
+                    </label>
+
+                    <input
+                        id="github"
+                        name="github"
+                        type="url"
+                        placeholder="https://github.com/"
+                    >
+
+                </div>
+
+
+                <div class="field">
+
+                    <label for="redesProfesionales">
+                        Redes profesionales / sitios relacionados
+                    </label>
+
+                    <input
+                        id="redesProfesionales"
+                        name="redesProfesionales"
+                        type="text"
+                        placeholder="LinkedIn, Behance, Instagram..."
+                    >
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             04 FORMA DE PARTICIPACIÓN
+        ================================================== -->
+
+        <section class="section">
+
+            <div class="section-heading">
+
+                <div class="section-number">
+                    04
+                </div>
+
+                <div>
+
+                    <h2>
+                        Forma de participación
+                    </h2>
+
+                    <p class="section-description">
+                        Queremos conocer cómo te gustaría colaborar
+                        y qué disponibilidad tienes.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="grid">
+
+
+                <div class="field full">
+
+                    <span class="field-label">
+                        ¿Cómo te gustaría colaborar?
+                    </span>
+
+                    <div class="checkbox-grid">
+
+                        <label class="check-item">
+                            <input
+                                type="checkbox"
+                                name="formaParticipacion"
+                                value="Proyecto por proyecto"
+                            >
+                            Proyecto por proyecto
+                        </label>
+
+                        <label class="check-item">
+                            <input
+                                type="checkbox"
+                                name="formaParticipacion"
+                                value="Colaboración ocasional"
+                            >
+                            Colaboración ocasional
+                        </label>
+
+                        <label class="check-item">
+                            <input
+                                type="checkbox"
+                                name="formaParticipacion"
+                                value="Colaboración continua"
+                            >
+                            Colaboración continua
+                        </label>
+
+                        <label class="check-item">
+                            <input
+                                type="checkbox"
+                                name="formaParticipacion"
+                                value="Por horas"
+                            >
+                            Por horas
+                        </label>
+
+                        <label class="check-item">
+                            <input
+                                type="checkbox"
+                                name="formaParticipacion"
+                                value="Por servicio"
+                            >
+                            Por servicio
+                        </label>
+
+                        <label class="check-item">
+                            <input
+                                type="checkbox"
+                                name="formaParticipacion"
+                                value="Otro"
+                            >
+                            Otro
+                        </label>
+
+                    </div>
+
+                </div>
+
+
+                <div class="field">
+
+                    <label for="otroParticipacion">
+                        Si seleccionaste “Otro”, indica cuál
+                    </label>
+
+                    <input
+                        id="otroParticipacion"
+                        name="otroParticipacion"
+                        type="text"
+                    >
+
+                </div>
+
+
+                <div class="field">
+
+                    <span class="field-label">
+                        ¿Qué disponibilidad tienes?
+                    </span>
+
+                    <div class="checkbox-grid">
+
+                        <label class="check-item">
+                            <input
+                                type="checkbox"
+                                name="disponibilidad"
+                                value="Tiempo completo"
+                            >
+                            Tiempo completo
+                        </label>
+
+                        <label class="check-item">
+                            <input
+                                type="checkbox"
+                                name="disponibilidad"
+                                value="Medio tiempo"
+                            >
+                            Medio tiempo
+                        </label>
+
+                        <label class="check-item">
+                            <input
+                                type="checkbox"
+                                name="disponibilidad"
+                                value="Por proyecto"
+                            >
+                            Por proyecto
+                        </label>
+
+                        <label class="check-item">
+                            <input
+                                type="checkbox"
+                                name="disponibilidad"
+                                value="Fines de semana"
+                            >
+                            Fines de semana
+                        </label>
+
+                        <label class="check-item">
+                            <input
+                                type="checkbox"
+                                name="disponibilidad"
+                                value="Flexible"
+                            >
+                            Flexible
+                        </label>
+
+                    </div>
+
+                </div>
+
+
+                <div class="field full">
+
+                    <span class="field-label">
+                        Horario para entrevista en línea
+                    </span>
+
+                    <div class="checkbox-grid">
+
+                        <label class="check-item">
+                            <input
+                                type="checkbox"
+                                name="horarioEntrevista"
+                                value="Lun-Vier"
+                            >
+                            Lun-Vier
+                        </label>
+
+                        <label class="check-item">
+                            <input
+                                type="checkbox"
+                                name="horarioEntrevista"
+                                value="Sáb-Dom"
+                            >
+                            Sáb-Dom
+                        </label>
+
+                        <label class="check-item">
+                            <input
+                                type="checkbox"
+                                name="horarioEntrevista"
+                                value="Lun-Dom"
+                            >
+                            Lun-Dom
+                        </label>
+
+                        <label class="check-item">
+                            <input
+                                type="checkbox"
+                                name="horarioEntrevista"
+                                value="8:00 am - 5:00 pm"
+                            >
+                            8:00 am - 5:00 pm
+                        </label>
+
+                        <label class="check-item">
+                            <input
+                                type="checkbox"
+                                name="horarioEntrevista"
+                                value="5:00 pm - 8:00 pm"
+                            >
+                            5:00 pm - 8:00 pm
+                        </label>
+
+                        <label class="check-item">
+                            <input
+                                type="checkbox"
+                                name="horarioEntrevista"
+                                value="Cualquier hora"
+                            >
+                            Cualquier hora
+                        </label>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             05 INFORMACIÓN ADICIONAL
+        ================================================== -->
+
+        <section class="section">
+
+            <div class="section-heading">
+
+                <div class="section-number">
+                    05
+                </div>
+
+                <div>
+
+                    <h2>
+                        Información adicional
+                    </h2>
+
+                    <p class="section-description">
+                        Cuéntanos algo más sobre ti, tus habilidades
+                        o la manera en la que consideras que podrías
+                        aportar a DEIMOS.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="field">
+
+                <label for="adicional">
+                    Información adicional
+                </label>
+
+                <textarea
+                    id="adicional"
+                    name="adicional"
+                    rows="7"
+                ></textarea>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- MENSAJE DE ERROR -->
+
+        <div
+            id="formStatus"
+            class="status"
+            aria-live="polite"
+        ></div>
+
+
+
+        <!-- BOTONES -->
+
+        <div class="form-actions">
+
+            <button
+                type="reset"
+                class="btn btn-secondary"
+                id="resetBtn"
+            >
+                Limpiar
+            </button>
+
+            <button
+                type="submit"
+                class="btn btn-primary"
+            >
+                Enviar solicitud
+            </button>
+
+        </div>
+
+    </form>
+
+
+
+    <!-- =====================================================
+         CONFIRMACIÓN
+    ====================================================== -->
+
+    <section
+        id="confirmation"
+        class="confirmation"
+        aria-live="polite"
+    >
+
+        <div class="confirm-icon">
+            ✓
+        </div>
+
+        <h2>
+            ¡Solicitud enviada correctamente!
+        </h2>
+
+        <p>
+            Gracias por tu interés en formar parte de la red de
+            colaboradores de DEIMOS.
+
+            Hemos recibido tu información y próximamente
+            nos pondremos en contacto contigo.
+        </p>
+
+        <button
+            class="btn btn-primary"
+            type="button"
+            onclick="window.location.href='index.html'"
+        >
+            Volver a DEIMOS
+        </button>
+
+    </section>
+
+
+    <footer class="footer">
+
+        DEIMOS · Red de colaboradores
+
+    </footer>
+
+</main>
+
+
+
+<!-- =========================================================
+     JAVASCRIPT
+========================================================== -->
+
+<script>
+
+const form =
+    document.getElementById("collaboratorForm");
+
+const areaChoices =
+    document.querySelectorAll(
+        'input[name="areas"]'
+    );
+
+const desarrolloBlock =
+    document.getElementById(
+        "desarrolloBlock"
+    );
+
+const creatividadBlock =
+    document.getElementById(
+        "creatividadBlock"
+    );
+
+const areaError =
+    document.getElementById(
+        "areaError"
+    );
+
+const formStatus =
+    document.getElementById(
+        "formStatus"
+    );
+
+const confirmation =
+    document.getElementById(
+        "confirmation"
+    );
+
+
+
+/* =========================================================
+   ÁREAS SELECCIONADAS
+========================================================= */
+
+function selectedAreas(){
+
+    return [...areaChoices]
+
+        .filter(input => input.checked)
+
+        .map(input => input.value);
+
+}
+
+
+
+/* =========================================================
+   MOSTRAR BLOQUES DINÁMICOS
+========================================================= */
+
+function updateDynamicSections(){
+
+    const areas =
+        selectedAreas();
+
+
+    desarrolloBlock.classList.toggle(
+        "active",
+        areas.includes("Desarrollo")
+    );
+
+
+    creatividadBlock.classList.toggle(
+        "active",
+        areas.includes(
+            "Creatividad y comunicación"
+        )
+    );
+
+
+    if(areas.length){
+
+        areaError.style.display =
+            "none";
+
+    }
+
+}
+
+
+
+areaChoices.forEach(input => {
+
+    input.addEventListener(
+        "change",
+        updateDynamicSections
+    );
+
+});
+
+
+
+/* =========================================================
+   OBTENER VALORES
+========================================================= */
+
+function values(name){
+
+    return [
+
+        ...form.querySelectorAll(
+            `[name="${name}"]:checked`
+        )
+
+    ].map(el => el.value);
+
+}
+
+
+function value(name){
+
+    const el =
+        form.elements[name];
+
+    return el
+        ? el.value.trim()
+        : "";
+
+}
+
+
+
+/* =========================================================
+   RECOPILAR INFORMACIÓN
+========================================================= */
+
+function collectData(){
+
+    const areas =
+        selectedAreas();
+
+
+    const data = {
+
+        solicitud:
+            "Solicitud de colaboración DEIMOS",
+
+        fechaSolicitud:
+            new Date().toISOString(),
+
+        datosGenerales: {
+
+            nombre:
+                value("nombre"),
+
+            fechaNacimiento:
+                value("fechaNacimiento"),
+
+            residencia:
+                value("residencia"),
+
+            celular:
+                value("celular"),
+
+            correo:
+                value("correo"),
+
+            trabajoFijo:
+                form.querySelector(
+                    'input[name="trabajoFijo"]:checked'
+                )?.value || ""
+
+        },
+
+        areas
+
+    };
+
+
+
+    /* =====================================================
+       DESARROLLO
+    ====================================================== */
+
+    if(
+        areas.includes("Desarrollo")
+    ){
+
+        data.desarrollo = {
+
+            especialidad:
+                value("especialidadDev"),
+
+            lenguajes:
+                value("lenguajes"),
+
+            tecnologias:
+                value("tecnologias"),
+
+            nivel:
+                value("nivelDev"),
+
+            estructurasCondicionales:
+                form.querySelector(
+                    'input[name="condicionales"]:checked'
+                )?.value || "",
+
+            cualesEstructuras:
+                value("estructuras"),
+
+            poo:
+                form.querySelector(
+                    'input[name="poo"]:checked'
+                )?.value || "",
+
+            proyectosPOO:
+                value("proyectosPOO"),
+
+            usoIA:
+                form.querySelector(
+                    'input[name="iaDesarrollo"]:checked'
+                )?.value || "",
+
+            desarrollosIA:
+                value("desarrollosIA"),
+
+            bdRelacionalesNivel:
+                form.querySelector(
+                    'input[name="bdRelacionalesNivel"]:checked'
+                )?.value || "",
+
+            experienciaNube:
+                form.querySelector(
+                    'input[name="nube"]:checked'
+                )?.value || "",
+
+            cualesNube:
+                value("cualesNube"),
+
+            bdNoRelacionales:
+                form.querySelector(
+                    'input[name="bdNoRelacionales"]:checked'
+                )?.value || "",
+
+            githubExperiencia:
+                form.querySelector(
+                    'input[name="githubExp"]:checked'
+                )?.value || "",
+
+            githubComo:
+                value("githubComo"),
+
+            programasEcommerce:
+                form.querySelector(
+                    'input[name="ecommerce"]:checked'
+                )?.value || "",
+
+            pagosOnline:
+                value("pagosOnline"),
+
+            actividades:
+                values("actividadesDev")
+
+        };
+
+    }
+
+
+
+    /* =====================================================
+       CREATIVIDAD
+    ====================================================== */
+
+    if(
+        areas.includes(
+            "Creatividad y comunicación"
+        )
+    ){
+
+        data.creatividad = {
+
+            especialidad:
+                value("especialidadCreativa"),
+
+            redesSociales:
+                values("redes"),
+
+            otroRedes:
+                value("otroRedes"),
+
+            contenido:
+                values("contenido"),
+
+            otroContenido:
+                value("otroContenido"),
+
+            imagenes:
+                values("imagenes"),
+
+            otroImagenes:
+                value("otroImagenes"),
+
+            diseno:
+                values("diseno"),
+
+            otroDiseno:
+                value("otroDiseno"),
+
+            testeo:
+                values("testeo"),
+
+            otroTesteo:
+                value("otroTesteo"),
+
+            herramientas:
+                value("herramientasCreativas"),
+
+            nivel:
+                value("nivelCreativo"),
+
+            fortalezas:
+                values("fortalezas")
+
+        };
+
+    }
+
+
+
+    /* =====================================================
+       EXPERIENCIA
+    ====================================================== */
+
+    data.experiencia = {
+
+        habilidadesBlandas:
+            value("habilidadesBlandas"),
+
+        experiencia:
+            value("experiencia"),
+
+        portafolio:
+            value("portafolio"),
+
+        github:
+            value("github"),
+
+        redesProfesionales:
+            value("redesProfesionales")
+
+    };
+
+
+
+    /* =====================================================
+       PARTICIPACIÓN
+    ====================================================== */
+
+    data.participacion = {
+
+        formas:
+            values("formaParticipacion"),
+
+        otro:
+            value("otroParticipacion"),
+
+        disponibilidad:
+            values("disponibilidad"),
+
+        horarioEntrevista:
+            values("horarioEntrevista")
+
+    };
+
+
+
+    data.informacionAdicional =
+        value("adicional");
+
+
+    return data;
+
+}
+
+
+
+/* =========================================================
+   LIMPIAR ERRORES
+========================================================= */
+
+function clearErrors(){
+
+    document
+        .querySelectorAll(
+            ".field.has-error"
+        )
+        .forEach(el =>
+            el.classList.remove(
+                "has-error"
+            )
+        );
+
+
+    document
+        .querySelectorAll(
+            ".invalid"
+        )
+        .forEach(el =>
+            el.classList.remove(
+                "invalid"
+            )
+        );
+
+
+    areaError.style.display =
+        "none";
+
+
+    formStatus.className =
+        "status";
+
+
+    formStatus.textContent =
+        "";
+
+}
+
+
+
+/* =========================================================
+   VALIDACIÓN
+========================================================= */
+
+function validate(){
+
+    clearErrors();
+
+    let firstInvalid = null;
+
+
+    const requiredFields =
+        [
+            ...form.querySelectorAll(
+                "[required]"
+            )
+        ];
+
+
+    requiredFields.forEach(
+        field => {
+
+            const wrapper =
+                field.closest(
+                    ".field"
+                );
+
+
+            if(
+                !field.value.trim()
+            ){
+
+                field.classList.add(
+                    "invalid"
+                );
+
+                wrapper?.classList.add(
+                    "has-error"
+                );
+
+                firstInvalid ||=
+                    field;
+
+            }
+
+        }
+    );
+
+
+    const email =
+        document.getElementById(
+            "correo"
+        );
+
+
+    if(
+        email.value.trim() &&
+        !email.checkValidity()
+    ){
+
+        email.classList.add(
+            "invalid"
+        );
+
+        email
+            .closest(".field")
+            ?.classList.add(
+                "has-error"
+            );
+
+        firstInvalid ||=
+            email;
+
+    }
+
+
+
+    const areas =
+        selectedAreas();
+
+
+    if(
+        !areas.length
+    ){
+
+        areaError.style.display =
+            "block";
+
+        firstInvalid ||=
+            document.getElementById(
+                "areaSection"
+            );
+
+    }
+
+
+    return firstInvalid;
+
+}
+
+
+
+/* =========================================================
+   ENVÍO
+========================================================= */
+
+form.addEventListener(
+    "submit",
+    async event => {
+
+        event.preventDefault();
+
+
+        const firstInvalid =
+            validate();
+
+
+        if(firstInvalid){
+
+            formStatus.className =
+                "status error";
+
+
+            formStatus.textContent =
+                "Revisa los campos marcados. " +
+                "Completa la información obligatoria " +
+                "antes de enviar tu solicitud.";
+
+
+            if(
+                firstInvalid.focus
+            ){
+
+                firstInvalid.focus();
+
+            }else{
+
+                firstInvalid.scrollIntoView({
+                    behavior:"smooth",
+                    block:"center"
+                });
+
+            }
+
+            return;
+
+        }
+
+
+        const payload =
+            collectData();
+
+
+        /*
+        =====================================================
+        BACKEND
+
+        Aquí posteriormente conectaremos:
+
+        fetch("https://TU-BACKEND/api/colaboradores", {
+            method: "POST",
+            headers: {
+                "Content-Type":
+                    "application/json"
+            },
+            body:
+                JSON.stringify(payload)
+        });
+
+        El backend será responsable de:
+
+        1. Recibir los datos.
+        2. Generar el PDF.
+        3. Guardar temporalmente el PDF.
+        4. Enviarlo mediante WhatsApp Business API.
+        5. Devolver una respuesta.
+        =====================================================
+        */
+
+
+        console.log(
+            "Solicitud:",
+            payload
+        );
+
+
+        /*
+        DEMO:
+
+        Por ahora mostramos la pantalla
+        de confirmación.
+
+        Esto se reemplazará por la respuesta
+        real del backend.
+        */
+
+
+        form.style.display =
+            "none";
+
+
+        confirmation.classList.add(
+            "active"
+        );
+
+
+        window.scrollTo({
+            top:0,
+            behavior:"smooth"
+        });
+
+    }
+);
+
+
+
+/* =========================================================
+   QUITAR ERROR AL ESCRIBIR
+========================================================= */
+
+form.addEventListener(
+    "input",
+    event => {
+
+        const field =
+            event.target.closest(
+                ".field"
+            );
+
+
+        if(!field)
+            return;
+
+
+        event.target.classList.remove(
+            "invalid"
+        );
+
+
+        field.classList.remove(
+            "has-error"
+        );
+
+    }
+);
+
+
+
+/* =========================================================
+   RESET
+========================================================= */
+
+document
+    .getElementById("resetBtn")
+    .addEventListener(
+        "click",
+        () => {
+
+            setTimeout(
+                () => {
+
+                    clearErrors();
+
+                    updateDynamicSections();
+
+                },
+                0
+            );
+
+        }
+    );
+
+
+
+/* INICIALIZAR */
+
+updateDynamicSections();
+
+</script>
+
+</body>
+</html>
